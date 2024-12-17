@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="icon" href="gambar/logo.png">
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="homepage.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!--Responsive Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark tag_navbar sticky-top">
+    <div class="container-md">
+      <span class="navbar-brand teks_logo" href="#">
+        <img class="logo_navbar" src="gambar/logo.png">
+        <a class="teks_logo"></a>goclean
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse item" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 teks_item">
+          <li class="nav-item mx-4">
+            <a class="nav-link" aria-current="page" href="#">HomePage</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="#">Keunggulan</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="#">Testimoni</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-search" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--End Navbar-->
+
+  <!--Start Header-->
+  <section class="home" id="home">
+    <div class="container" >
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start" data-aos="fade-right" data-aos-delay="400">
+          <p class="heading fs-1 pt-5">Selamat Datang di Go Clean</p>
+          <p class="subheading text-light fs-5 ps-1">
+            GoClean Hadir untuk Membantu Anda Menikmati Hidup Lebih Mudah, dengan Layanan Kebersihan Profesional yang
+            Siap Membuat
+            Rumah atau Kantor Anda Bersih dan Nyaman Kapan Saja
+          </p>
+          <div class="btn-home">
+            <a href="#" class="btn btn-signin mt-2 fs-4 py-2 px-4" onclick="location.href='login.html'">Sign In</a>
+            <a href="#" class="btn btn-signup mt-2 ms-1 fs-4 py-1.5 px-4" onclick="location.href='registrasi.html'">Sign
+              Up</a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center" data-aos="fade-left" data-aos-delay="600">
+          <img src="gambar/gambar1clear.png" class="img-fluid gambar_header">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Header-->
+
+
+  <!-- Features section-->
+  <section class="py-5 border-bottom" id="features">
+    <div class="container px-5 my-5 py-5">
+      <div class="row gx-5">
+
+        <div class="col-lg-4 mb-5 mb-lg-0" data-aos="zoom-in-down" data-aos-delay="500">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+          <h2 class="h4 fw-bolder">Pelayanan Cepat dan Profesional</h2>
+          <p>GoClean menyediakan tenaga kebersihan yang terlatih dan profesional untuk memastikan rumah atau kantor Anda
+            bersih dengan cepat dan efisien.</p>
+
+        </div>
+        <div class="col-lg-4 mb-5 mb-lg-0" data-aos="zoom-in-down" data-aos-delay="700">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+          <h2 class="h4 fw-bolder">Layanan Fleksibel dan Terjangkau</h2>
+          <p>Nikmati layanan kebersihan yang fleksibel sesuai jadwal Anda dengan harga yang transparan dan ramah di
+            kantong.
+          </p>
+
+        </div>
+        <div class="col-lg-4" data-aos="zoom-in-down" data-aos-delay="900">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+          <h2 class="h4 fw-bolder">Kebersihan Terjamin dengan Standar Tinggi</h2>
+          <p>Menggunakan peralatan dan bahan pembersih berkualitas, GoClean menjamin kebersihan maksimal yang aman bagi
+            keluarga dan lingkungan.</p>
+
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Testimonials section-->
+  <section class="py-5 border-bottom">
+    <div class="container px-5 my-5 px-5">
+      <div class="text-center mb-5" data-aos="zoom-in-down" data-aos-delay="400">
+        <h2 class="fw-bolder">Testimoni Pembeli</h2>
+        <p class="lead mb-0">Pelanggan kami senang bekerja sama dengan kami </p>
+      </div>
+      <div class="row gx-5 justify-content-center">
+        <div class="col-lg-6">
+          <!-- Testimonial 1-->
+          <div class="card mb-4"data-aos="flip-up" data-aos-delay="500">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center">
+              
+                <!-- Teks -->
+                <div>
+                  <p class="mb-1">
+                    Terima kasih telah menghasilkan produk yang hebat. Kami senang bekerja dengan Anda dan seluruh tim, 
+                    dan kami akan merekomendasikan Anda kepada orang lain!
+                  </p>
+                  <div class="small text-muted">- Rudi J, Kudus</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 2-->
+          <div class="card"data-aos="flip-up" data-aos-delay="700">
+            <div class="card-body p-4">
+              <div class="d-flex">
+                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                <div class="ms-4">
+                  <p class="mb-1">Pelayanan bagus, saya akan berlangganan di sini !</p>
+                  <div class="small text-muted">- Defi, Kudus</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section-->
+  <section class="contact py-5">
+    <div class="container px-5 my-5 px-5">
+      <div class="text-center mb-5"data-aos="zoom-in-down" data-aos-delay="500">
+        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+        <img src="gambar/logo.png" class="col-lg-2">
+        <h2 class="fw-bolder title_contact" >Hubungi Kami</h2>
+        <p class="lead mb-0 title_contact">Jangan ragu untuk memberikan kritik pada kami</p>
+      </div>
+      <div class="row gx-5 justify-content-center">
+        <div class="col-lg-6">
+
+          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <!-- Name input-->
+            <div class="form-floating mb-3" data-aos="fade-right" data-aos-delay="400">
+              <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                data-sb-validations="required" />
+              <label for="name">Nama</label>
+              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+            </div>
+            <!-- Email address input-->
+            <div class="form-floating mb-3" data-aos="fade-left" data-aos-delay="500">
+              <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                data-sb-validations="required,email" />
+              <label for="email">Email</label>
+              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+            </div>
+            <!-- Phone number input-->
+            <div class="form-floating mb-3" data-aos="fade-right" data-aos-delay="600">
+              <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                data-sb-validations="required" />
+              <label for="phone">No. Telp</label>
+              <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+            </div>
+            <!-- Message input-->
+            <div class="form-floating mb-3" data-aos="fade-left" data-aos-delay="700">
+              <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
+                style="height: 10rem" data-sb-validations="required"></textarea>
+              <label for="message">Pesan</label>
+              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+            </div>
+            <!-- Submit success message-->
+            <!---->
+            <!-- This is what your users will see when the form-->
+            <!-- has successfully submitted-->
+            <div class="d-none" id="submitSuccessMessage">
+              <div class="text-center mb-3">
+                <div class="fw-bolder">Form submission successful!</div>
+                To activate this form, sign up at
+                <br />
+                <a
+                  href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+              </div>
+            </div>
+
+            <div class="d-none" id="submitErrorMessage">
+              <div class="text-center text-danger mb-3">Error sending message!</div>
+            </div>
+            <!-- Submit Button-->
+            <div class="d-grid"><button class="btn btn-custom btn-lg" id="submitButton" type="submit" data-aos="fade-right" data-aos-delay="800">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer-->
+  <footer class="py-5 bg-dark">
+    <div class="container px-5">
+      <p class="m-0 text-center text-white">Copyright &copy; GoClean 2024</p>
+    </div>
+  </footer>
+</body>
+
+</html>

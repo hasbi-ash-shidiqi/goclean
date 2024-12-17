@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Page</title>
+    <link rel="icon" href="gambar/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="registrasi.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="gambar/logo.png" class="img-fluid py-3 logo_img">
+                </div>
+                <div class="col-md-6 col-12 d-flex justify-content-center">
+                    <div class="container_form" id="register-container">
+                        <h2>Registrasi</h2>
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="reg-username">Username</label>
+                                <div class="input-icon">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" id="reg-username" name="username" placeholder="Masukkan username" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="reg-email">Email</label>
+                                <div class="input-icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" id="reg-email" name="email" placeholder="Masukkan email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="reg-password">Password</label>
+                                <div class="input-icon">
+                                    <i class="fas fa-lock"></i>
+                                    <input type="password" id="reg-password" name="password" placeholder="Masukkan password" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="reg-confirm-password">Confirm Password</label>
+                                <div class="input-icon">
+                                    <i class="fas fa-lock"></i>
+                                    <input type="password" id="reg-confirm-password" name="confirm-password" placeholder="Verifikasi password" required>
+                                </div>
+                            </div>
+                            <div class="link">
+                                <button type="button" class="btn" onclick="location.href='login.html'">Register</button>
+                                <p class="mt-2">Sudah Punya Akun? <a href="login.html">Klik di sini</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+</body>
+</html>

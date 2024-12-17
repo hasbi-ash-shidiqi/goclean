@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "grover";
+  src: url(grover/Irish_Grover/IrishGrover-Regular.ttf);
+}
+
+.logo_navbar{
+  width: 50px;
+}
+
+.tag_navbar {
+  background-color: #87C4FF;
+}
+
+.teks_logo {
+  font-family: "grover";
+  font-size: 1.875rem; /* 30px */
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.container_search{
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.col_search{
+  background-color: #BFEA7C;
+  color: #000000;
+}
+.col_search:hover{
+transform: scale(1.1);
+transition: 0.2s ease;
+background-color: #abd36c;
+color: #ffffff;
+}
+
+.icon{
+  width: 30px;
+}
+.icon:hover{
+  transform: scale(1.3);
+  transition: 0.2s ease;
+  color: #87C4FF;
+  background-color: #BFEA7C;
+  border-radius: 15px;
+  
+}
+
+/* Border */
+
+.bordered{
+    border: solid;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/*fitur*/
+.gambar1 {
+    background-color: #bad9f8;
+}
+
+.container_produk {
+    background-color: #f7f8f8;
+    border-radius: 10px;
+}
+
+.text_produk {
+    color: rgb(0, 0, 0);
+
+}
+.img_produk{
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.container_jasa {
+    background-color: #f7f8f8;
+    border-radius: 10px;
+}
+
+.text_jasa {
+    color: rgb(0, 0, 0);
+}
+
+.card:hover{
+  border: 2px #87C4FF solid;
+}
+

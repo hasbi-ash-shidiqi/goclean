@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk</title>
+    <link rel="icon" href="gambar/logo.png">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="produk.css">
+</head>
+
+<body>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <section class="head_navbar" id="head_navbar">
+        <nav class="navbar navbar-expand-lg tag_navbar">
+            <div class="container">
+                <span class="navbar-brand">
+                    <img class="logo_navbar logo_navbar" src="gambar/logo.png">
+                    <a class="navbar-brand teks_logo text-light" href="#">goclean</a>
+                </span>
+    
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <!--Search-->
+              <div class="collapse navbar-collapse item" id="navbarSupportedContent">
+                <form class="d-flex container" role="search">
+                    <input class="form-control me-2 mt-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn col_search mt-2" type="submit">Search</button>
+                  </form>
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 teks_item mt-2">
+                  <li class="nav-item ms-3 mb-2 ">
+                    <img src="gambar/chat.png" class="icon mt-2" onclick="location.href='pesan.html'">
+                </li>
+                  <li class="nav-item ms-3 mb-2 ">
+                    <img src="gambar/notification.png" class="icon mt-2" onclick="location.href='notifikasi.html'">
+                  </li>
+                  <li class="nav-item ms-3 mb-2 ">
+                    <img src="gambar/cart.png" class="icon mt-2" onclick="location.href='keranjang.html'">
+                </li>
+                <li class="nav-item ms-3 mb-2 ">
+                    <img src="gambar/profile.png" class="icon mt-2" onclick="location.href='profile.html'">
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+
+
+    </head>
+
+    <body>
+        <div class="container mt-5 bg-container">
+            <div class="row">
+                <!-- Gambar Produk -->
+                <div class="col-12 col-lg-4 mt-2">
+                    <div class="border rounded p-2 bg-white d-flex align-items-center justify-content-center">
+                        <img src="gambar/sapu.jpg" alt="" class="img-fluid mb-2">
+                    </div>
+                        <div class="mt-4 mt-3 text-center">
+                            <img src="gambar/sapu1.jpg" alt="Thumb 1" class="img-thumbnail img_thumb me-2 mt-2 col-3 col-lg-3 col-md-3">
+                            <img src="gambar/sapu2.jpg" alt="Thumb 2" class="img-thumbnail img_thumb me-2 mt-2 col-3 col-lg-3 col-md-3">
+                            <img src="gambar/sapu3.jpg" alt="Thumb 3" class="img-thumbnail img_thumb me-2 mt-2 col-3 col-lg-3 col-md-3">
+                        </div>
+                </div>
+
+                <!-- Detail Produk -->
+                <div class="col-md-7">
+                    <h1 class="product-title mt-2">Alat Pembersih Lantai | Sapu</h1>
+                    <div>
+                        <span class="star-rating">★★★★★</span>
+                        <span class="ms-2 small-text text-white">5 | 7,4RB Penilaian | 15rb+ Terjual</span>
+                    </div>
+                    <div class="price mt-3">Rp11.850</div>
+                    <div class="mt-2">
+                        <span class="badge bg-custom">Rp500 OFF</span>
+                    </div>
+
+                    <!-- Pengiriman -->
+                    <div class="mt-4">
+                        <p class="small-text mb-1 text-white">Pengiriman :</p>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-truck"></i>
+                            <span class="ms-2 text-white">Pengiriman <strong>KAB. KUDUS</strong></span>
+                            <span class="ms-3 text-custom">Ongkos Kirim Rp0</span>
+                        </div>
+                    </div>
+
+                    <!-- Opsi Produk -->
+                    <div class="mt-4">
+                        <p class="small-text mb-1 text-white">Ukuran Sapu :</p>
+                        <div class="d-flex">
+                            <div class="option-box me-2 active">Sapu Besar</div>
+                            <div class="option-box">Sapu Kecil</div>
+                        </div>
+                    </div>
+
+                    <!-- Kuantitas -->
+                    <div class="mt-4">
+                        <p class="small-text mb-1 text-white">Jumlah</p>
+                        <div class="input-group" style="width: 150px;">
+                            <button class="btn btn-outline-minus" type="button">-</button>
+                            <input type="text" class="form-control text-center" value="1">
+                            <button class="btn btn-outline-plus" type="button">+</button>
+                        </div>
+                        <small class=" d-block mt-2 text-white">Tersisa 122836 buah</small>
+                    </div>
+
+                    <!-- Tombol -->
+                    <div class="mt-4">
+                        <button class="btn btn-custom-left me-2 px-4 mt-2" onclick="location.href='keranjang.html'">Masukkan
+                            Keranjang</button>
+                        <button class="btn btn-custom px-4 mt-2">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5">
+            <div class="container ">
+                <div class="accordion col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-lg-12 offset-lg-0" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Deskripsi Produk
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <h5>Sapu Ijuk Berkualitas - Solusi Kebersihan Rumah Anda</h5>
+                                <p>Jaga kebersihan rumah Anda dengan sapu ijuk berkualitas tinggi yang dirancang untuk
+                                    memenuhi kebutuhan sehari-hari. Terbuat dari bahan serat ijuk alami yang kuat,
+                                    lentur, dan tahan lama, sapu ini efektif membersihkan berbagai jenis permukaan,
+                                    mulai dari lantai keramik, kayu, hingga halaman rumah Anda.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Keunggulan Produk
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>
+                                        <p>Harga Ekonomis dengan Kualitas Unggul Dengan harga terjangkau, sapu ijuk
+                                            menawarkan kualitas kebersihan yang maksimal</p>
+                                    </li>
+                                    <li>
+                                        <p>Tidak Menyebarkan Debu.
+                                            Serat ijuk yang halus mampu menyapu debu tanpa membuatnya beterbangan</p>
+                                    </li>
+                                    <li>
+                                        <p>Terbuat dari serat ijuk alami yang tahan lama, sapu ini tidak mudah rusak dan
+                                            mampu digunakan dalam jangka waktu lama</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Spesifikasi Produk
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>
+                                        Material: Serat ijuk alami dan gagang kayu/rotan berkualitas
+                                    </li>
+                                    <li>
+                                        Panjang Gagang: ± 90 - 100 cm
+                                    </li>
+                                    <li>
+                                        Lebar Sapu: ± 30 cm
+                                    </li>
+                                    <li>
+                                        Berat: ± 300 gram
+                                    </li>
+                                    <li>
+                                        Warna: Natural hitam ijuk dengan gagang kayu coklat
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="produk">
+            <div class="container">
+                <!-- Daftar Produk -->
+                <h4 class="mb-4 text_jasa py-2">Rekomendasi Produk</h4>
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img src="gambar/sapu.jpg" onclick="location.href='produk.html'" class="card-img-top" alt="Produk 1">
+                            <div class="card-body">
+                                <h6 class="card-title">Sapu</h6>
+                                <p class="text-danger fw-bold">Rp550.000</p>
+                                
+                                <div class="d-flex align-items-center mt-2">
+                                    <p class="mb-0 me-1">5</p>
+                                    <div class="star-rating" style="color: gold;">★★★★★</div>
+                                </div>
+                                <span class="badge bg-primary mt-2">Terpopuler</span>
+                                <p class="text-muted mt-2">15rb Terjual</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img src="gambar/kemoceng.jpg" class="card-img-top" alt="Produk 2">
+                            <div class="card-body">
+                                <h6 class="card-title">Kemoceng Microfiber Anti Debu Modern</h6>
+                                <p class="text-danger fw-bold">Rp990.000</p>
+        
+                                <div class="d-flex align-items-center mt-2">
+                                    <p class="mb-0 me-1">4</p>
+                                    <div class="star-rating" style="color: gold;">★★★★☆</div>
+                                </div>
+                                <span class="badge bg-danger mt-2">Diskon 50%</span>
+                                <p class="text-muted mt-2">205 Terjual</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img src="gambar/pel.jpg" class="card-img-top" alt="Produk 3">
+                            <div class="card-body">
+                                <h6 class="card-title">Alat Pel Lantai Otomatis Peras Praktis</h6>
+                                <p class="text-danger fw-bold">Rp990.000</p>
+        
+                                <div class="d-flex align-items-center mt-2">
+                                    <p class="mb-0 me-1">4</p>
+                                    <div class="star-rating" style="color: gold;">★★★★☆</div>
+                                </div>
+                                <span class="badge bg-danger mt-2">Diskon 75%</span>
+                                <p class="text-muted mt-2">12 Terjual</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card 4 -->
+                    <div class="col-12 col-md-6 col-lg-3 order-2">
+                        <div class="card h-100 shadow-sm">
+                            <img src="gambar/penyedot_debu.jpg" class="card-img-top" alt="Produk 4">
+                            <div class="card-body">
+                                <h6 class="card-title">Penyedot Debu Hemat Daya</h6>
+                                <p class="text-danger fw-bold">Rp1.199.000</p>
+        
+                                <div class="d-flex align-items-center mt-2">
+                                    <p class="mb-0 me-1">5</p>
+                                    <div class="star-rating" style="color: gold;">★★★★★</div>
+                                </div>
+                                <span class="badge bg-primary mt-2">Baru</span>
+                                <p class="text-muted mt-2">--</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark mt-5">
+    <div class="container text-center text-white">
+        <p>&copy; GoClean 2024. All Rights Reserved</p>
+    </div>
+</footer>
+    </body>
+
+</html>
